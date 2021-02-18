@@ -1,0 +1,20 @@
+ label{
+width: 100%;
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    color: #5d5959;
+    font-weight: bold;
+    min-width: 100px;
+    float: left;
+    line-height: 30px;
+}
+input{
+    width: 100%;
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    color: #5d5959;
+    font-weight: bold;
+    min-width: 100px;
+    float: left;
+    line-height: 30px;
+}

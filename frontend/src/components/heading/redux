@@ -1,0 +1,46 @@
+redux 
+
+single state mangement 
+
+GET_USERS, {filters} 
+
+dispatchers = event(action) emit  
+actions 
+reducers  GET_USERS = (payload) => {
+    return new store({...store, users: payload.users})
+}
+store = {
+
+}
+
+
+connect((),(dispatch) => {
+    getUsers: (payload) => dispatch("GET_USERS", {...payload})
+})(Landing)
+
+
++++++++++++++++++++++++++++++++++
+
+functional()=> {
+    this
+    useState
+    useEffect(()=> { return ()=> {}}, [x])
+    useCallback
+    useRef
+    useMemo
+    const handleClick = useCallback(() => {
+
+    }, [p])
+    return (
+        <button onClick={handleClick}></button>
+    )
+}
+
+
+
+
+
+calss
+
+get
+set
